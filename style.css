@@ -1,0 +1,33 @@
+/* Hoja de Estilos Personalizada (style.css)
+  La mayor parte del diseño se realiza con clases de Tailwind CSS en el archivo HTML.
+  Este archivo se usa para estilos base y personalizaciones específicas.
+*/
+
+/* Estilo base para la fuente del cuerpo del documento */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Clases de color de acento personalizadas.
+  Estas definen el color principal de tu marca para mantener la consistencia.
+*/
+
+/* Color del texto */
+.accent-color {
+    color: #3b82f6; /* Azul de Tailwind (blue-500) */
+}
+
+/* Color de fondo */
+.bg-accent-color {
+    background-color: #3b82f6;
+}
+
+/* Color de fondo al pasar el mouse (hover) */
+.bg-accent-hover:hover {
+    background-color: #2563eb; /* Azul más oscuro (blue-600) */
+}
+
+/* Color del borde */
+.border-accent-color {
+    border-color: #3b82f6;
+}

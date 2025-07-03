@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte Técnico PC Pereira | Soluciones Rápidas y Confiables</title>
+    
+    <!-- Tailwind CSS: Framework para diseño rápido y moderno -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Favicon (icono en la pestaña del navegador) -->
+    <link rel="icon" href="https://placehold.co/32x32/3b82f6/ffffff?text=PC" type="image/png">
+
+    <!-- Enlace a tu hoja de estilos personalizada -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- =========== ENCABEZADO Y NAVEGACIÓN =========== -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-bold text-gray-800">
+                <span class="accent-color">PC</span>Fix Pereira
+            </a>
+            
+            <!-- Menú para Escritorio -->
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#inicio" class="text-gray-600 hover:accent-color transition duration-300">Inicio</a>
+                <a href="#servicios" class="text-gray-600 hover:accent-color transition duration-300">Servicios</a>
+                <a href="#contacto" class="text-gray-600 hover:accent-color transition duration-300">Contacto</a>
+                <a href="https://wa.me/573133598863?text=Hola%2C%20necesito%20soporte%20t%C3%A9cnico%20para%20mi%20equipo." target="_blank" class="bg-accent-color text-white px-4 py-2 rounded-lg shadow-lg bg-accent-hover transition duration-300">
+                    Contactar por WhatsApp
+                </a>
+            </div>
+            
+            <!-- Botón de Menú para Móvil -->
+            <button id="mobile-menu-button" class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-4 6h4"></path></svg>
+            </button>
+        </nav>
+        
+        <!-- Menú para Móvil (Oculto por defecto) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white">
+            <a href="#inicio" class="block py-2 px-4 text-sm hover:bg-gray-100">Inicio</a>
+            <a href="#servicios" class="block py-2 px-4 text-sm hover:bg-gray-100">Servicios</a>
+            <a href="#contacto" class="block py-2 px-4 text-sm hover:bg-gray-100">Contacto</a>
+            <a href="https://wa.me/573133598863?text=Hola%2C%20necesito%20soporte%20t%C3%A9cnico%20para%20mi%20equipo." target="_blank" class="block py-3 px-4 text-center bg-accent-color text-white font-bold">
+                Contactar por WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <!-- =========== CONTENIDO PRINCIPAL =========== -->
+    <main>
+        <!-- =========== SECCIÓN DE INICIO (HERO) =========== -->
+        <section id="inicio" class="bg-white pt-20 pb-20">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
+                    Soluciones Técnicas <span class="accent-color">Rápidas y Confiables</span> para tus Equipos
+                </h1>
+                <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+                    Servicio a domicilio en Pereira y Dosquebradas. Diagnóstico preciso y reparaciones garantizadas para que vuelvas a la acción sin demoras.
+                </p>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <a href="#contacto" class="bg-accent-color text-white text-lg font-semibold px-8 py-3 rounded-lg shadow-xl hover:bg-blue-600 transition duration-300">
+                        Solicitar Cotización
+                    </a>
+                    <a href="#servicios" class="bg-gray-200 text-gray-800 text-lg font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-gray-300 transition duration-300">
+                        Ver Servicios
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== SECCIÓN DE SERVICIOS =========== -->
+        <section id="servicios" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Nuestros Servicios</h2>
+                    <p class="text-gray-600 mt-2">Soluciones integrales para todos tus problemas informáticos.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Tarjeta de Servicio 1 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300">
+                        <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                            <!-- Icono SVG -->
+                            <svg class="w-8 h-8 accent-color" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Reparación de PC y Laptops</h3>
+                        <p class="text-gray-600">Diagnóstico y solución de fallas de hardware y software en equipos de todas las marcas.</p>
+                    </div>
+                    
+                    <!-- Tarjeta de Servicio 2 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300">
+                         <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 accent-color" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Eliminación de Virus</h3>
+                        <p class="text-gray-600">Limpieza profunda de malware, spyware y virus que ralentizan tu equipo y roban tu información.</p>
+                    </div>
+
+                    <!-- Tarjeta de Servicio 3 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300">
+                         <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 accent-color" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Optimización y Mantenimiento</h3>
+                        <p class="text-gray-600">Acelera el rendimiento de tu PC con limpieza de archivos, optimización de inicio y actualizaciones.</p>
+                    </div>
+
+                    <!-- Tarjeta de Servicio 4 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300">
+                         <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 accent-color" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Recuperación de Datos</h3>
+                        <p class="text-gray-600">Intentamos recuperar tus archivos importantes de discos duros dañados o borrados accidentalmente.</p>
+                    </div>
+
+                    <!-- Tarjeta de Servicio 5 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300">
+                         <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                           <svg class="w-8 h-8 accent-color" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Instalación de Software</h3>
+                        <p class="text-gray-600">Instalación y configuración de sistemas operativos (Windows/macOS) y programas que necesites.</p>
+                    </div>
+
+                    <!-- Tarjeta de Servicio 6 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300">
+                         <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 accent-color" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Ensamblaje de PC a Medida</h3>
+                        <p class="text-gray-600">Construimos el computador de tus sueños, optimizado para gaming, diseño o trabajo de oficina.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== SECCIÓN DE CONTACTO =========== -->
+        <section id="contacto" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">¿Listo para Empezar?</h2>
+                    <p class="text-gray-600 mt-2">Contáctanos. Estamos aquí para ayudarte.</p>
+                </div>
+                
+                <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Información de Contacto -->
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800">Habla con un experto</h3>
+                            <p class="text-gray-600">Llámanos o escríbenos directamente.</p>
+                            <a href="https://wa.me/573133598863?text=Hola%2C%20necesito%20soporte%20t%C3%A9cnico." class="text-xl accent-color font-bold mt-1 block">
+                                (+57) 313 359 8863
+                            </a>
+                        </div>
+                         <div>
+                            <h3 class="text-lg font-semibold text-gray-800">Envíanos un Correo</h3>
+                            <p class="text-gray-600">Para consultas detalladas o cotizaciones.</p>
+                            <a href="mailto:mzambranob@uc.edu.co" class="text-xl accent-color font-bold mt-1 block">
+                                mzambranob@uc.edu.co
+                            </a>
+                        </div>
+                         <div>
+                            <h3 class="text-lg font-semibold text-gray-800">Horario de Atención</h3>
+                            <p class="text-gray-600">Lunes a Viernes: 9:00 AM - 9:00 PM</p>
+                            <p class="text-gray-600">Sábados: 9:00 AM - 9:00 PM</p>
+                            <p class="text-gray-600">Domingos: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+
+                    <!-- Formulario de Contacto -->
+                    <div>
+                        <form action="https://formspree.io/f/mldnvolw" method="POST" class="bg-gray-50 p-8 rounded-lg shadow-md">
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 font-semibold mb-2">Tu Nombre</label>
+                                <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:border-accent-color">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 font-semibold mb-2">Tu Correo Electrónico</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:border-accent-color">
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="block text-gray-700 font-semibold mb-2">¿Cómo podemos ayudarte?</label>
+                                <textarea id="message" name="message" rows="5" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:border-accent-color"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-accent-color text-white font-bold py-3 px-4 rounded-lg shadow-lg bg-accent-hover transition duration-300">
+                                Enviar Mensaje
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========== PIE DE PÁGINA =========== -->
+    <footer class="bg-gray-800 text-white">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 PCFix Pereira. Todos los derechos reservados.</p>
+            <p class="text-sm text-gray-400 mt-2">Diseño y desarrollo web con ❤️</p>
+        </div>
+    </footer>
+
+    <!-- Enlace a tu archivo de JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
