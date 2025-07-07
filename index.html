@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soporte Técnico PC Pereira | Soluciones Rápidas y Confiables</title>
 
-    <!-- Tailwind CSS: Framework para diseño rápido y moderno -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Google Fonts: Inter -->
@@ -23,35 +23,38 @@
       type="image/png"
     />
 
-    <!-- Enlace a tu hoja de estilos personalizada -->
+
     <link rel="stylesheet" href="style.css" />
   </head>
+
+
   <body class="bg-gray-50 text-gray-800">
     <!-- =========== ENCABEZADO Y NAVEGACIÓN =========== -->
     <header class="bg-white shadow-md sticky top-0 z-50">
       <nav
         class="container mx-auto px-6 py-4 flex justify-between items-center"
       >
+      
         <!-- Logo -->
-        <a href="#" class="text-2xl font-bold text-gray-800">
-          <span class="accent-color">PC</span>Fix Pereira
+        <a href="#" class="text-2xl font-bold text-gray-800 transition duration-300 hover:-translate-y-1 hover:scale-105">
+              <span class="accent-color">PC</span>Fix Pereira
         </a>
 
         <!-- Menú para Escritorio -->
         <div class="hidden md:flex space-x-6 items-center">
           <a
             href="#inicio"
-            class="text-gray-600 hover:accent-color transition duration-300"
+            class="text-gray-600 hover:accent-color hover:bg-blue-500 transition duration-300 rounded"
             >Inicio</a
           >
           <a
             href="#servicios"
-            class="text-gray-600 hover:accent-color transition duration-300"
+            class="text-gray-600 hover:accent-color hover:bg-blue-500 transition duration-300 rounded"
             >Servicios</a
           >
           <a
             href="#contacto"
-            class="text-gray-600 hover:accent-color transition duration-300"
+            class="text-gray-600 hover:accent-color hover:bg-blue-500 transition duration-300 rounded"
             >Contacto</a
           >
           <a
@@ -82,7 +85,7 @@
         </button>
       </nav>
 
-      <!-- Menú para Móvil (Oculto por defecto) -->
+      <!-- Menú para Móvil  -->
       <div id="mobile-menu" class="hidden md:hidden bg-white">
         <a href="#inicio" class="block py-2 px-4 text-sm hover:bg-gray-100"
           >Inicio</a
@@ -479,7 +482,6 @@
       </div>
     </footer>
 
-    <!-- Enlace a tu archivo de JavaScript -->
     <script src="script.js" defer></script>
   </body>
 </html>
